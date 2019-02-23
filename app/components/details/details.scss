@@ -1,0 +1,30 @@
+@import "~react-responsive-carousel/lib/styles/carousel.min.css";
+.detailsPanel{
+    padding-top: 130px;
+    width:1024px;
+    margin: auto;
+    .album-details{
+        padding: 20px 0px;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 30px;
+        .title{
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 0px;
+        }
+    }
+    .photo-details{
+        .title{
+            font-size: 18px;
+            font-weight: bold;
+            padding: 10px 0px;
+        }
+    }
+}
+
+.button{
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px 14px;
+}

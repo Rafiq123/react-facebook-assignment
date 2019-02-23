@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="/" />
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '2068039466646858',
+                autoLogAppEvents: true,
+                xfbml: true,
+                version: 'v3.2'
+            });
+
+            // Broadcast an event when FB object is ready
+            var fbInitEvent = new Event('FBObjectReady');
+            document.dispatchEvent(fbInitEvent);
+        };
+    </script>
+    <script async defer src="https://connect.facebook.net/en_US/sdk.js"></script>
+    <script async defer src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.2"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
