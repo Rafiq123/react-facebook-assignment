@@ -4,7 +4,7 @@ import FacebookLoginButton from '../facebookLoginButton/facebookLoginButton';
 import UserProfile from '../userProfile';
 import Albums from '../albums';
 
-import { login, updateFBProfilePicture, updateAlbums, updateThumbnails, updatePhotos } from '../../actions/facebook';
+import { login, updateFBProfilePicture, updateAlbums, updatePhotos } from '../../actions/facebook';
 import './home.scss';
 
 class Home extends Component {
@@ -116,4 +116,4 @@ const mapStateToProps = ({ facebook }) => {
         photos : facebook.photos
     }
 }
-export default connect(mapStateToProps, { login, updateFBProfilePicture, updateAlbums, updateThumbnails, updatePhotos })(Home);
+export default connect(mapStateToProps, { login, updateFBProfilePicture, updateAlbums, updatePhotos })(Home);

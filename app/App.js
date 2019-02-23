@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
 //components
-import Header from './components/header';
 import Home from './components/home';
 import Details from './components/details';
 
